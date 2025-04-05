@@ -189,7 +189,7 @@ def main(image_path, excel_path, model_path):
         original_length = 1810
         length_features = {
             'length': (original_length - max_vertical_length) / original_length,
-            'length_rate': (12.2604 - max_vertical_length) / df['baketime'].iloc[0]
+            # 'length_rate': (12.2604 - max_vertical_length) / df['baketime'].iloc[0]
         }
         length_features_values = np.array(list(length_features.values()))
 
@@ -216,7 +216,7 @@ def main(image_path, excel_path, model_path):
         original_length = 1810
         length_features = {
             'length': (original_length - max_vertical_length) / original_length,
-            'length_rate': (12.2604 - max_vertical_length) / df['baketime'].iloc[0]
+            # 'length_rate': (12.2604 - max_vertical_length) / df['baketime'].iloc[0]
         }
         length_features_values = np.array(list(length_features.values()))
 
